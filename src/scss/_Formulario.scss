@@ -1,0 +1,24 @@
+form{
+    margin: 0 50px 0 0;
+    display:block;
+    padding: 10px;
+    width: fit-content;
+}
+select{
+    display:block;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    opacity: 95%;
+    border: none;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+}
+@media screen and (max-width:600px){
+    select{
+        width: 60vw;
+        font-size: small;
+    }
+}

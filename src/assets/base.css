@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat+Alternates&display=swap");
+.container {
+  margin: 20px;
+  border: solid 3px snow;
+  border-radius: 7px;
+  background-color: #030303;
+  box-shadow: 1px 1px 24px snow;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: snow;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr;
+  width: 90vw;
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .grid {
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+}
+form {
+  margin: 0 50px 0 0;
+  display: block;
+  padding: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+select {
+  display: block;
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  opacity: 95%;
+  border: none;
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 15px;
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  select {
+    width: 60vw;
+    font-size: small;
+  }
+}
+button {
+  padding: 8px;
+  margin: 10px 0px;
+  text-align: center;
+  border-radius: 5px;
+  width: 200px;
+  cursor: pointer;
+  font-weight: bold;
+  color: snow;
+  background-color: #124364;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  transition: background 0.3s;
+}
+button:hover {
+  transition: background 0.3s;
+  background: #1c699c;
+}
+
+@media screen and (max-width: 600px) {
+  button {
+    width: 50vw;
+  }
+}
+.data {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+}
+
+h2 {
+  margin-top: 5px;
+  color: gold;
+}
+
+h3 {
+  font-size: 40px;
+}
+h3 .cripto {
+  color: tomato;
+}
+h3 .moneda {
+  color: rgb(82, 255, 82);
+}
+
+img {
+  width: 30vh;
+}
+
+p {
+  font-size: 50px;
+}
+p strong {
+  font-size: 35px;
+  color: yellow;
+}/*# sourceMappingURL=base.css.map */
